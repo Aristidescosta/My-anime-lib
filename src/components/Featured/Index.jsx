@@ -24,7 +24,9 @@ export const Featured = ({ item, type }) => {
   for (let i in item.genres) {
     genres.push(item.genres[i].name);
   }
-  const code = item.trailer.url.slice(item.trailer.url.lastIndexOf("=") + 1);
+  let code;
+  if (item.trailer.url)
+    code = item.trailer.url.slice(item.trailer.url.lastIndexOf("=") + 1);
   return (
     <section
       className="featured"
