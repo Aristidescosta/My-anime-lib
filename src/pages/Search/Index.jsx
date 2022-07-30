@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom"
 import { AnimeSearch } from "../../components/AnimeSearch";
 import { Navbar } from "../../components/navbar";
 import "./style.css";
