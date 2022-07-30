@@ -1,0 +1,106 @@
+.title {
+  margin: 8rem 0 4rem 3rem;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.animeCard {
+  position: relative;
+  width: 30%;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #111;
+  padding: 1rem;
+}
+
+.animeCard-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* .card-container .animeCard-img {
+    height: 80%;
+  }
+  
+  .card-container .animeCard-info {
+    height: 20%;
+  } */
+
+.card-container .animeCard-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-container .animeCard img {
+  width: 100%;
+}
+
+.card-container .animeCard img,
+.card-container .animeCard h2,
+.card-container .animeCard p {
+  margin-bottom: 0.5rem;
+}
+
+.card-container .animeCard svg {
+  color: #f7b354;
+}
+
+.card-container div a {
+  background-color: #f7b354;
+  border: 2px solid #f7b354;
+  border-radius: 4px;
+  padding: 1rem 0.5rem;
+  color: #111;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease;
+  font-weight: bold;
+}
+
+.card-container div a:hover {
+  background-color: transparent;
+  color: #f7b354;
+}
+
+/* .container .title{
+      color: #fff;
+      font-size: 2rem;
+      text-align: center;
+      margin: 2rem 0 1rem;
+  }
+  
+  .container .title .query-Text{
+      color: #f7d354;
+  } */
+
+@media (max-width: 768px) {
+  .animeCard {
+    width: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  .animeCard {
+    width: 100%;
+  }
+}
